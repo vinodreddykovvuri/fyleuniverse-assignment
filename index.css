@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif; 
+}
+.f-class{
+	padding: 10% 0% 0% 15%;
+}
+.i-class{
+padding: 5% 0% 0% 10%;	
+}
+h2{
+	font-size: 50px;
+	color: black;
+}
+h4{
+	color: red;
+}
+.fp{
+	width: 60%;
+	height: 100%;
+}
+.form-control {
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+.form-control:focus {
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+.modal-dialog {
+    margin: 20vh auto 0px auto;
+    padding: 10px 10px 10px 10px;
+}
+.checkbox-warning-filled [type="checkbox"][class*='filled-in']:checked {
+  border-color: #ff0000;
+  background-color:	#ff0000;
+}
+
+
+ .slide {
+     background-color:  #F6F6F6;
+ }
+ .aclass{
+ 	padding: 2% 0 0 15%;
+ }
+ .bclass{
+ 	padding: 2% 0 0 10%;
+ }
+
+ @media (max-width:991.98px) {
+     .padding {
+         padding: 1.5rem
+     }
+ }
+
+ @media (max-width:767.98px) {
+     .padding {
+         padding: 1rem
+     }
+ }
+
+ .padding {
+     padding: 5rem
+ }
+
+ .card {
+     position: relative;
+     display: flex;
+     width: 1000px;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     border: 1px solid #d2d2dc;
+ }
+ p {
+     font-size: 0.875rem;
+     margin-bottom: .5rem;
+     line-height: 1.5rem
+ }
+
+ h4 {
+     line-height: .2 !important
+ }
+
+ .items {
+     width: 90%;
+     margin: 0px auto;
+     margin-top: 100px
+ }
+
+ .slick-slide {
+     margin: 10px
+ }
+
+ .profile-image {
+     width: 100%;
+     height:400px;
+ }
+ .a{
+     background-image: url("i1.png");
+     background-repeat: no-repeat;
+     background-size: 100% 400px;
+ }
+  .b{
+     background-image: url("i2.png");
+     background-repeat: no-repeat;
+     background-size: 100% 400px;
+ }
+  .c{
+     background-image: url("i3.png");
+     background-repeat: no-repeat;
+     background-size: 100% 400px;
+ }
+ .slick-arrow { 
+        display: none !important;
+    }
+.slick-dots li.slick-active button {
+    border: 2px solid red;
+    border-radius: 100%;
+}
+.slick-dots li.slick-active button:before {
+    color: red;
+}
+.slick-dots li.slick-active button:before {
+    color:Red !important;
+}
+.slick-dots{ 
+    max-width: 100px; max-height: 100px; 
+}
+.pi{
+    display: none;
+}
+.profile-image:hover .pi{
+    display: inline-block;
+    background: #ED4155;
+    color: white;
+    width: 100%;
+    height: 400px;
+}
+.why{
+    padding: 2% 10% 0 10%;
+}
+.growth{
+    background-color: #F6F6F6;
+}
+.gro{
+    padding: 2% 0% 0 20%;
+}
+.client_fb{
+    padding: 2% 20% 0 20%;
+}
+.shadow{
+  transition: box-shadow .3s;
+  border-radius:0px;
+}
+.shadow:hover{
+    border: 2px solid #f6f6f6;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
